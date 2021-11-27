@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:title="@string/map"
+    android:icon="@drawable/ic_map"
+    android:id="@+id/map"
+    app:showAsAction="ifRoom"/>
+
+<item app:showAsAction="always"
+    android:icon="@drawable/ic_camera"
+    android:id="@+id/camera"
+    android:title="camera"/>
+
+<item android:title="@string/user"
+    android:icon="@drawable/ic_add"
+    android:id="@+id/add"
+    app:showAsAction="always"
+     />
+</menu>
